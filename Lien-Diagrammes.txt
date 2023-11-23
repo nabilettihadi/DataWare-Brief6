@@ -1,0 +1,11 @@
+Diagramme de Cas d'utilisation:
+
+https://lucid.app/lucidchart/d8bc4bf1-9577-47ca-ba47-09f254f17119/edit?viewport_loc=-361%2C0%2C2697%2C1250%2C.Q4MUjXso07N&invitationId=inv_6963f54f-cfd1-4451-8034-09ff7adfa44e
+
+Diagramme de Classe:
+
+https://lucid.app/lucidchart/4c0a5c57-2814-4f22-9dfc-06e072a008e2/edit?viewport_loc=-238%2C2031%2C2065%2C957%2CHWEp-vi-RSFO&invitationId=inv_b392c8de-63e2-49d4-abfa-0c4f7a06e1c1
+
+Diagramme de Séquence
+
+https://lucid.app/lucidchart/24611eb5-f05e-4379-a856-47dbaf39a7e4/edit?viewport_loc=1318%2C2555%2C2176%2C1008%2C0_0&invitationId=inv_b973b2d4-c4ff-423a-9c0c-8b31ab697f1d
