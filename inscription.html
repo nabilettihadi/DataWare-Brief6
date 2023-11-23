@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestion des Equipes et des Projets - Inscription</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-gradient-to-r from-blue-500 to-green-500 h-screen flex flex-col">
+
+    <nav class="bg-indigo-700 p-4">
+        <div class="container mx-auto flex items-center justify-between">
+            <div class="text-white">
+
+                <a href="#" class="text-xl font-bold">DataWare</a>
+            </div>
+            <div class="flex items-center space-x-4">
+
+                <a href="#" class="text-white">Accueil</a>
+                <a href="projects.html" class="text-white">Projets</a>
+                <a href="equipes.html" class="text-white">Équipes</a>
+                <a href="membres.html" class="text-white">Membres</a>
+                <a href="connexion.html" class="text-white">Connexion</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto p-8 flex-grow flex items-center justify-center">
+        <div class="bg-white p-8 rounded shadow-md w-96">
+            <h1 class="text-3xl font-bold mb-4">Inscription</h1>
+            <form action="process_inscription.php" method="POST">
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label class="block mb-2" for="prenom">Prénom :</label>
+                        <input class="border p-2 w-full" type="text" name="prenom" required>
+                    </div>
+                    <div>
+                        <label class="block mb-2" for="nom">Nom :</label>
+                        <input class="border p-2 w-full" type="text" name="nom" required>
+                    </div>
+                </div>
+                <label class="block mt-2 mb-2" for="email">Adresse Email :</label>
+                <input class="border p-2 w-full" type="email" name="email" required>
+                <label class="block mt-2 mb-2" for="password">Mot de passe :</label>
+                <input class="border p-2 w-full" type="password" name="password" required>
+                <button class="bg-blue-500 text-white p-2 mt-4 w-full" type="submit">S'inscrire</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
