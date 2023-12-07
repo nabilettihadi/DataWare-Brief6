@@ -26,13 +26,16 @@ if (isset($_POST["submit"])) {
 
 <body class="bg-gradient-to-r from-blue-400 to-indigo-800">
     <section class="min-h-screen flex justify-center items-center">
-        <div class="container mx-auto">
+        <div class=" flex justify-center container mx-auto">
             <div class="card bg-white rounded-md shadow-md overflow-hidden w-full lg:w-4/5 xl:w-3/5">
+
                 <div class="flex justify-end px-3 py-1">
                     <a href="DashboardM.php" class="text-danger text-xl"><i class="bi bi-x-lg"></i></a>
                 </div>
                 <div class="lg:flex justify-center">
+
                     <div class="lg:w-1/2 p-8">
+                <img src="..\Image\photo.jpeg" alt="">
                         <form method="post" action="">
                             <h5 class="font-semibold mb-3 mt-3 pb-3 text-xl">Créer un nouveau projet</h5>
 
