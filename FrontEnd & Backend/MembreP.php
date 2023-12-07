@@ -5,6 +5,7 @@ session_start();
 if($_SESSION['autoriser'] != "oui"){
   header("Location: index.php");
   exit();
+  
 }
 $user= $_SESSION['username'];
 ?>
@@ -82,10 +83,15 @@ $user= $_SESSION['username'];
                                     <td><?php echo $row['First_name'];?></td>
                                     <td><?php echo $row['email'];?></td>
                                     <td><?php echo $row['role'];?></td>
-                                    <td><a href="Modifier_Role.php?id=<?=$row['id_user']?>" class="ms-5"><i class="bi bi-pencil"></i></a></th>
+                                    <td><a href="Modifier_Role.php?id=<?=$row['id_user']?>" class="ms-5"><i
+                                                class="bi bi-pencil"></i></a></th>
+
+
                                 </tr>
                             </tbody>
-                            <?php}
+
+                            <?php
+              }
              }  ?>
 
                         </table>
